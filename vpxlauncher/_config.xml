@@ -1,0 +1,57 @@
+<?xml version="1.0"?><config>
+  <setup1>
+    <filters>
+      <filter>
+        <name><![CDATA[1990's]]></name>
+        <needed><![CDATA[.*199.\).*]]></needed>
+      </filter>
+      <filter>
+        <name><![CDATA[Bally & Midway]]></name>
+        <needed><![CDATA[.*\((bally|midway).*]]></needed>
+        <forbidden>1</forbidden>
+      </filter>         
+      <filter>
+        <name><![CDATA[Stern 1990-2010]]></name>
+        <needed><![CDATA[.*stern.(199.|200.|2010).*]]></needed>
+        <forbidden>1</forbidden>
+      </filter>
+      <filter>
+        <name><![CDATA[Williams & Stern 80's]]></name>
+        <needed><![CDATA[.*(williams|stern).*198.\).*]]></needed>
+      </filter>
+      <filter>
+        <name><![CDATA[VPW Releases]]></name>
+        <needed><![CDATA[.*\).*vpw.*]]></needed>
+      </filter>      
+    </filters>
+    <altfilters>
+      <filter>
+        <name><![CDATA[1990's]]></name>
+        <needed><![CDATA[.*199.\).*]]></needed>
+      </filter>    
+      <filter>
+        <name><![CDATA[Williams & Stern 80's]]></name>
+        <needed><![CDATA[.*(williams|stern).*198.\).*]]></needed>
+      </filter>
+      <filter>
+        <name><![CDATA[VPW Releases]]></name>
+        <needed><![CDATA[.*\).*vpw.*]]></needed>
+      </filter>      
+    </altfilters>    
+    <paths>
+      <tables>E:\Tables VR\</tables>
+      <pinemhi></pinemhi>
+      <vpparams>-Minimized -Play</vpparams>
+    </paths>
+    <settings>
+      <onlinedata>1</onlinedata>
+      <autoupdate>1</autoupdate>
+      <autostart>0</autostart>
+      <startfocusgrab>1</startfocusgrab>            
+      <vpxpreviewx>-1</vpxpreviewx>
+      <vpxpreviewy>-1</vpxpreviewy>
+      <vpxprevieww>600</vpxprevieww>
+      <vpxpreviewh>400</vpxpreviewh>
+    </settings>
+  </setup1>
+</config>
